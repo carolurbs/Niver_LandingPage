@@ -21,7 +21,6 @@
         margin: 64px 0;
         font-size: 40px;
         line-height: 56px;
-        color:#fff;
         font-weight: 900;
         text-align: center;
     }
@@ -30,5 +29,16 @@
         margin:0 auto;
         height: 150px;
         border-radius: 50%;
+    }
+    @media(max-width: 640px){
+        padding: 40px 0;
+        &__branding{
+            max-width: 80%;
+        }
+        &__text{
+            font-size: 22px;
+            line-height: 24px;
+            margin: 24px 0
+        }
     }
 }

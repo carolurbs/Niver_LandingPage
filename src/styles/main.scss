@@ -4,6 +4,8 @@
     padding:0;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
+    color:#fff;
+
 }
 .container
 {
@@ -16,14 +18,5 @@
     @media(max-width:1024px){
         max-width: 90%;
     }
-    @media(max-width: 640px){
-        padding: 40px 0;
-        &__branding{
-            max-width: 80%;
-        }
-        &__text{
-            font-size: 22px;
-            line-height: 24px;
-        }
-    }
+   
 }
