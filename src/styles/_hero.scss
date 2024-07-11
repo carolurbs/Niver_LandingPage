@@ -1,0 +1,34 @@
+.hero{
+    padding: 64px 0 100px;
+    background-image: url(../Images/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .container{
+        position: relative;
+    }
+    &:before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width:100%;
+        height:100%;
+        background-color: #000;
+        opacity: .7;
+        content:'';
+    }
+    &__text{
+        margin: 64px 0;
+        font-size: 40px;
+        line-height: 56px;
+        color:#fff;
+        font-weight: 900;
+        text-align: center;
+    }
+    &__branding{
+        display: block;
+        margin:0 auto;
+        height: 150px;
+        border-radius: 50%;
+    }
+}
