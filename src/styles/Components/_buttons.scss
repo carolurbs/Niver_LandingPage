@@ -1,3 +1,5 @@
+@use '../colors';
+
 .button{
     padding: 12px;
     font-size: 18px;
@@ -10,8 +12,8 @@
 
     &--primary
     {
-        color: #fff;
-        background-color: #4f2ac3;
+        color: colors.$text;
+        background-color: colors.$button;
         text-decoration: none;
         border-radius: 5px;
     }

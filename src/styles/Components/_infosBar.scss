@@ -1,6 +1,7 @@
+@use '../colors';
 .infos__bar{
     padding:16px 24px;
-    background-color: #fff;
+    background-color:colors.$text;
     display: flex;
     justify-content: space-between;
     border-radius: 5px;
@@ -9,11 +10,11 @@
         gap:40px;
         &__item{
             font-size: 14px;
-            color: #000;
+            color:colors.$secondaryText;
             b{
                 font-size: 18px;
                 display: block;
-                color:#000 ;
+                color:colors.$secondaryText;       
             }
         }
 

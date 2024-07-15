@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/main.scss">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+<link rel="stylesheet" href="./styles/main.scss">
 </head>
 <body>
     <header class="hero">
@@ -36,7 +37,7 @@
         </div>
     </header>
     <section class="event">
-        <div class="container">
+        <div class="container" data-aos="fade-up">
             <div class="event__details">
                 <h2 class="event__details__title">Venha para minha festa de 28 anos!</h2>
                 <p class="event__details__description">Venha curtir comigo uma festa na praia com caipirinha, churrasco, música e brigadeiro! A festa será em um dos quiosques da praia. Para que eu possa me planejar certinho, confirme a presença até dia 13/01!</p>
@@ -46,6 +47,7 @@
             <img class="event__image" src="./Images/Caipirinha.jpg" alt="Caipirinha">
         </div>
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./scripts/main.js"></script>
 </body>
 </html>
